@@ -6,7 +6,7 @@
 /*   By: mgould <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/01 15:56:58 by mgould            #+#    #+#             */
-/*   Updated: 2016/11/01 16:57:58 by mgould           ###   ########.fr       */
+/*   Updated: 2016/11/01 17:03:53 by mgould           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ int		main(int argc, char **argv)
 {
 	int i;
 
-	argc = 0;
 	i = 0;
+	argc = 0;
 	while (argv[0][i] != '\0')
 	{
 		ft_putchar(argv[0][i]);
